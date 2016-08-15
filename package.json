@@ -1,0 +1,47 @@
+{
+  "name": "spike-example",
+  "description": "what a great project",
+  "version": "0.0.1",
+  "author": "jescalan",
+  "ava": {
+    "verbose": "true"
+  },
+  "bugs": "https://github.com/jescalan/spike-example/issues",
+  "dependencies": {
+    "babel-preset-es2015": "6.x",
+    "babel-preset-stage-2": "6.x",
+    "cssnano": "3.x",
+    "image-webpack-loader": "1.x",
+    "lost": "6.x",
+    "markdown-it": "6.x",
+    "postcss-cssnext": "2.6.x",
+    "postcss-import": "8.x",
+    "reshape-content": "^0.1.1",
+    "reshape-expressions": "^0.1.0",
+    "reshape-layouts": "^0.2.1",
+    "reshape-include": "^0.1.0",
+    "reshape-retext": "^0.1.1",
+    "retext-smartypants": "^2.0.0",
+    "rucksack-css": "^0.8.0",
+    "sugarss": "^0.1.0",
+    "sugarml": "^0.2.0",
+    "webpack": "1.13.x"
+  },
+  "devDependencies": {
+    "ava": "^0.16.0",
+    "rimraf": "^2.5.4",
+    "snazzy": "^4.0.1",
+    "spike-core": "^0.11.0",
+    "standard": "^7.1.2"
+  },
+  "homepage": "https://github.com/jescalan/spike-example",
+  "main": "app.js",
+  "private": "true",
+  "repository": "https://github.com/jescalan/spike-example",
+  "scripts": {
+    "lint": "standard --verbose | snazzy",
+    "precommit": "npm run lint -s",
+    "pretest": "npm run lint -s",
+    "test": "NODE_ENV=test ava"
+  }
+}
