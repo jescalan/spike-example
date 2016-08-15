@@ -18,13 +18,14 @@
     "postcss-import": "8.x",
     "reshape-content": "^0.1.1",
     "reshape-expressions": "^0.1.0",
-    "reshape-layouts": "^0.2.1",
     "reshape-include": "^0.1.0",
+    "reshape-layouts": "^0.2.1",
     "reshape-retext": "^0.1.1",
     "retext-smartypants": "^2.0.0",
     "rucksack-css": "^0.8.0",
-    "sugarss": "^0.1.0",
+    "spike": "^0.11.0",
     "sugarml": "^0.2.0",
+    "sugarss": "^0.1.0",
     "webpack": "1.13.x"
   },
   "devDependencies": {
